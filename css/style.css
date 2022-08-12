@@ -1,0 +1,310 @@
+html{
+font-size: 16px;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: #555;
+}
+header{
+    min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ) , url(../images/pexels-photo-1552242.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.main-nav , .footer-nav , .social-nav{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+}
+.main-nav li , .footer-nav li  , .social-nav li{
+    margin-right: 30px;
+}
+.main-nav li a , .footer-nav li a , .social-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: double 1px #444;
+    border-radius: 10px;
+}
+.main-nav li a:hover , .footer-nav li a:hover , .social-nav li a:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+.logo{
+    margin-top: 10%;
+    margin-left: 28%;
+}
+h2{
+    color: white;
+    font-size: 2rem;
+    line-height: 200%;
+
+}
+.logo a{
+    margin-right: 40px;
+    color:rgba(128, 128, 128, 0.848);
+    padding: 10px 20px 10px 20px;
+    border: solid 4px rgba(255, 0, 0, 0.314);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.logo a:hover{
+    background-color: white;
+    
+
+}
+.img1{
+margin-left: 45%;
+margin-top: 10px;
+height: 100px;
+width: 100px;
+}
+
+
+
+section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5) )
+   
+}
+.az{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+
+}
+hr{
+    width: 100px;
+    border: solid 0.5px mediumvioletred;
+    margin-bottom: 20px;
+}
+.z{
+    line-height: 150%;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto 10px auto;
+    font-size: 20px;
+}
+
+.feat{
+text-align: center;
+}
+
+.feat p{
+font-weight: 600;
+line-height: 200%;
+color: antiquewhite;
+}
+.feat i{
+    font-size: 50px; 
+    color: rgb(81, 0, 255);
+}
+h3{
+    color:black;
+   
+}
+
+
+.gym{
+    
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+.gym img{
+    width: 100%;
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.1);
+   
+}
+.gym img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+.left-upload{
+    text-align: right;
+    padding: 30px;
+}
+.left-upload img{
+    width: 40%;
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.steps div{
+    border: solid 2px orange;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+}
+.right-upload{
+    padding-top: 50px;
+    padding-left: 30px;
+    
+}
+.right-upload a{
+    margin-right: 20px;
+}
+
+.right-upload img{
+    height: 50px;
+}
+
+.bb{
+    text-align: center;
+    color: black;
+}
+
+#upload p{
+color:black;
+}
+
+
+.city img{
+    width: 100%;
+}
+
+
+h3{
+
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+
+}
+
+.city-i{
+    display: flex;
+    align-items: center;
+}
+.city-i i{
+    color: orange;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.cityy{
+    text-align: center;
+    color: #444;
+}
+
+
+
+#customer{
+    
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)), url(../images/istockphoto-1266626327-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+#customer i{
+    font-size: 50px;
+  margin-top: 70px;
+}
+#customer p{
+    line-height: 200%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#customer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+
+}
+
+#customer h2{
+    margin-top: 150px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+
+form{
+    padding-top: 50px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type=text],
+[type=email] ,
+select
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type=checkbox]{
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid 2px orangered;
+    height: 40px;
+    color: white;
+    background-color: orange;
+}
+button:hover{
+    background-color: white;
+    color: orange;
+}
+
+footer{
+    padding: 30px 0px;
+    background-color: #333;
+}
+footer p{
+    text-align: center;
+    color: #ccc;
+    margin-top: 30px;
+}
+
+.social-nav{
+    float: right;
+}
+
+.social-nav li a i{
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.happy{
+    text-align: center;
+    color: #555;
+}
